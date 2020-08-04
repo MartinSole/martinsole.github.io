@@ -1,0 +1,58 @@
+svg {
+	display: block;
+	width: 100%;
+}
+
+.logo{
+	stroke: #007f52; 
+ 	stroke-width: 2;
+ 	stroke-dasharray: 800;
+ 	stroke-dashoffset: 800;
+  	animation: offset 30s linear forwards;
+}
+
+@keyframes offset {
+ 100% {
+   stroke-dashoffset: 0; 
+  }
+}
+
+.work div[class^="col-"]:hover{
+	border-radius:5px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+.newsection{
+	border-top: 2px solid #c2c2c2;
+	padding-top: 25px;
+}
+
+.work div h3,
+.about h3,
+.music div h4{
+	text-align: center;
+	margin-bottom:15px;
+}
+
+
+.btn{
+	white-space: normal;
+}
+
+.images{
+	margin-top: 24px;
+	transition:transform .5s;
+}
+
+.images:hover{
+
+	transform:scale(1.2);
+
+	}
+
+.sameHeight{
+	display:flex;
+	flex-direction:column;
+	height:100%;
+	justify-content:space-between;
+}

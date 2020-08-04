@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>^ Back to Top</title>
+<link rel="stylesheet" href="stylesheet.css" type="text/css"/>
+				<script>
+								function validateForm()
+								{
+								var x=document.forms["Validate"]["fname"].value;
+								if (x==null || x=="")
+								  {
+								  alert("first name must be filled out");
+								  return false;
+								  }
+								
+								
+								var y=document.forms["Validate"]["lname"].value;
+								if (y==null || y=="")
+								  {
+								  alert("last name must be filled out");
+								  return false;
+								  }
+								 
+								 var z=document.forms["Validate"]["email"].value;
+								 var atpos=z.indexOf("@");
+								 var dotpos=z.lastIndexOf(".");
+								 if (atpos<1 || dotpos<atpos+2 || dotpos+2>=z.length)
+								 {
+								 	alert("Not a valid e-mail address");
+								 	return false;
+								 }
+								
+								 if (document.Validate.checkbox.checked==false)
+								 
+								 	{
+								 	alert("You must agree to the terms and conditions");
+								 	return false;
+								 }
+								
+								}
+				</script>
+</head>
+
+<body id="home">
+
+	<div class="main">
+	
+		<div class="header">
+			<ul>
+				<a href="test.html" class="home"><li>Home</li></a>
+				<a href="second page.html" class="link"><li>Links</li></a>
+				<a href="3.html"><li id="buy">Buy</li></a>
+							
+				<img id="fb" src="images/fb1.png" width="30px" />
+				<img src="images/twitter.jpg" width="30px" />
+			</ul>
+		</div>
+		
+		<div class="img">
+		</div>
+	
+		<div class="img2">
+		</div>
+	
+		<div class="gif">
+			<img src="images/animated.gif" />
+		</div>
+	
+	
+	
+	
+		
+		<div class="scroll">
+    	    <h3><p>Announcements:</p></h3>
+   
+	        <marquee scrollamount="3" direction="up" loop="true">
+		      	<p>Test, what is going on?</p><br />
+		        <p>Does this work?</p>
+		        <br />
+       			<p>I think it is working, now to enchance it and give it a superpower, like the Hulk, SMASH!</p>
+       			<img src="images/hulk.jpg" width="150" style="padding:10px" /> 	 
+       			 
+       		</marquee>
+    	</div>
+
+		 <div class="links">
+						<ul>
+							<li>Look</li>
+							<li>Over</li>
+							<li>Here</li>
+							<li>Hey!</li>
+						
+						</ul>
+						<form name="Validate" action="#" onsubmit="return validateForm()" method="post">
+						First name:<input type="text" name="fname"/>
+						<br/>
+						<br/>
+						Last name:<input type="text" name="lname"/>
+						<br/>
+						<br/>
+						Email:<input type="text" name="email"/>
+						<br/>
+						<br/>
+						I agree to the terms and conditions
+						<input type="checkbox" name="checkbox" />
+						<br/>
+						<br/>
+						<input type="submit" value="submit"/>
+
+						</form>
+		</div>
+
+
+
+	</div>
+</body>
+
+</html>

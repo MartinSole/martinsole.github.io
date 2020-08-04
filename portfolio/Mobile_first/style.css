@@ -1,0 +1,36 @@
+svg {
+	display: block;
+	margin: 2em auto 0;
+	width: 100%;
+}
+
+.logo{
+	stroke: #007f52; 
+ 	stroke-width: 2;
+ 	stroke-dasharray: 800;
+ 	stroke-dashoffset: 800;
+  	animation: offset 30s linear forwards;
+}
+
+@keyframes offset {
+ 100% {
+   stroke-dashoffset: 0; 
+  }
+}
+
+.work > div:hover{
+	border-radius:5px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+.work div h3,
+.about h3,
+.music div h4{
+	text-align: center;
+	margin-bottom:15px;
+}
+
+
+.btn{
+	white-space: normal;
+}

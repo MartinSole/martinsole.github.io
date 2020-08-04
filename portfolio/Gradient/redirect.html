@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<!--<meta HTTP-EQUIV="REFRESH" content="60; url=http://www.google.co.uk" />-->
+<title>Untitled 1</title>
+</head>
+
+<body>
+
+<p>redirecting...
+
+<span id="counter">5</span> second(s).</p>
+<script type="text/javascript">
+function countdown() {
+    var a = document.getElementById('counter');
+    if (parseInt(a.innerHTML)<=1) {
+        location.href = 'https://www.google.co.uk';
+    }
+    a.innerHTML = parseInt(a.innerHTML)-1;
+}
+setInterval(function(){ countdown(); },1000);
+</script>
+
+
+</body>
+
+</html>

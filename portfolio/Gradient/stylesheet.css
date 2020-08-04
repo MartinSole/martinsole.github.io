@@ -1,0 +1,60 @@
+﻿.content {
+	width:1280px;
+	margin-right:auto;
+	margin-right:auto;
+
+}
+
+.header {
+	margin-top:350px;
+	width:100%;
+	background-color:black;
+	color:white;
+	font-family: Magneto, Arial, Helvetica, sans-serif;
+	border-top-style:solid;
+	border-top-color:red;
+	border-bottom-style:solid;
+	border-bottom-color:red;
+	position: fixed;
+	z-index:30;
+}
+
+
+.header ul li{
+	display:inline;
+	font-size:2em;
+	font-weight:bolder;
+	margin-left:50px;
+}
+
+a {
+	color:inherit;
+	text-decoration:none;
+}
+
+#fb{
+	padding-left:25px;
+}
+
+.header ul img{
+	margin-left:15px;
+}
+
+
+body{
+	background-color:black;
+}
+
+.logo{
+	opacity:.8;
+	background-image:url('images/logo.jpg');
+	background-repeat: no-repeat;
+	height:350px;
+	width:800px;
+	float:left;
+	margin-left:300px;
+	margin-bottom:50px;
+	position:fixed;
+
+}
+

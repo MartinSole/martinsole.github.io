@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled 1</title>
+<script src="java.js" type="text/javascript"/>
+</head>
+
+<body>
+
+<script type="text/javascript">
+											document.observe('dom:loaded', function(){
+												iSlideShow = new iSlideShow({
+													instance			: 'iSlideShow', // critical, simply define the class instance name here for callbacks (for future use)			
+													autostart 			: true,			// optional, boolean (default:true)
+													start				: 0,	 		// optional, slides[start] (default:0) 
+													wait 				: 5000, 		// optional, milliseconds (default:4s)
+													slides 				: 'linkedRotatingBannerWithTicker', 	// the div containing the gallery_item's
+													animation			: 'fade',		// optional, the transition animation, (default: fade)
+													controls			: '', // optional, the arrow links will be added if this is specified
+													carousel			: 'false', // adds thumbs to carousel
+													carouselOrientation : 'HORIZONTAL', // set orientation 
+													ticker 				: 'true', // set ticker state 
+													imagegrid			: 'false' // adds thumbs to an imagegrid (only use carousel or imagegrid, not both)
+												});
+											});	
+											</script>
+											<div id="linkedRotatingBannerWithTicker"><div class="gallery_item" style="display: none;">
+												<a href="/ourbrands/" title="Brands people love - view our brands" class="open">
+												<img src="/images/monopoly.jpg" class="full" />
+												</a>
+												</div>
+												<div class="gallery_item" style="display: none;">
+												<a href="/ourbrands/" title="Brands people love - view our brands" class="open">
+												<img src="/images/hulk.jpg" class="full" />
+												</a>
+												</div>
+												<div class="gallery_item" style="display: none;">
+												<a href="/ourbrands/" title="Brands people love - view our brands" class="open">
+												<img src="/images/twitter.jpg" class="full" />
+												</a>
+												</div>
+												</div>
+
+
+</body>
+
+</html>

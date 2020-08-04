@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<link rel="icon" href="images/monstersmall.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/monstersmall.ico" type="image/x-icon" />
+<link rel="shortcut icon" type="image/png" href="images/monstersmall.png" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>^ Back to Top</title>
+<link rel="stylesheet" href="stylesheet.css" type="text/css"/>
+				<script language="javascript" type="text/javascript">
+								function validateForm()
+								{
+									var x=document.forms["Validate"]["fname"].value;
+									if (x==null || x=="")
+								  	{
+								  	alert("first name must be filled out");
+								  	return false;
+								  	}
+								
+								
+									var y=document.forms["Validate"]["lname"].value;
+									if (y==null || y=="")
+								  	{
+								  	alert("last name must be filled out");
+								  	return false;
+								  	}
+								 
+								 	var z=document.forms["Validate"]["email"].value;
+								 	var atpos=z.indexOf("@");
+								 	var dotpos=z.lastIndexOf(".");
+								 	if (atpos<1 || dotpos<atpos+2 || dotpos+2>=z.length)
+								 	{
+								 		alert("Not a valid e-mail address");
+								 		return false;
+								 	}
+								
+								 	if (document.Validate.checkbox.checked==false)
+								 	{
+								 		alert("You must agree to the terms and conditions");
+								 		return false;
+								 	}
+								
+								}
+																
+								function popitup(url){
+									newwindow=window.open(url, 'popupWindow', 'height=225, width=275, left=10, top=10, resizeable=no, scrollbars=no, toolbar=no, menubar=no, location=no, directories=no, status=no');
+									if (window.focus) {newwindow.focus();
+										}
+									return false;
+									}
+						
+				</script>
+</head>
+
+
+	<body>
+
+	
+	
+	<div class="header">
+		<ul>
+			<li><a href="test.html" class="home">Home</a></li>
+			<li><a href="second page.html" class="link">Links</a></li>
+			<li id="buy"><a href="3.html">Buy</a></li>
+			<li><a href="../index.html">Back to portfolio</a></li>
+		
+		</ul>
+	</div>
+
+	<div class="main">
+		<div class="gif clearfix">
+		
+		<div class="img">
+		</div>
+	
+		<div class="img2">
+		</div>
+	
+		<div class="img3">
+			<img src="images/animated.gif" alt="projector gif" />
+		</div>
+
+	</div>
+	
+	<div class="content_layout">
+	
+	
+		
+		<div class="scroll">
+    	    <h3><p>Announcements:</p></h3>
+   
+	        <marquee scrollamount="3" direction="up" loop="true">
+		      	<p>Test, what is going on?</p><br/>
+		        <p>Does this work?</p>
+		        <br />
+       			<p>I think it is working, now to enchance it and give it a superpower, like the Hulk, SMASH!</p>
+       			<img src="images/hulk.jpg" width="150" style="padding:10px" /> 	 
+       			 
+       		</marquee>
+    	</div>
+
+		 <div class="links">
+						<ul>
+							<li>Look</li>
+							<li>Over</li>
+							<li>Here</li>
+							<li>Hey!</li>
+						
+						</ul>
+						
+						<p id="date"></p>
+						<form name="Validate" action="#" onsubmit="return validateForm()" method="post">
+						First name:<input type="text" name="fname"/>
+						<br/>
+						<br/>
+						Last name:<input type="text" name="lname"/>
+						<br/>
+						<br/>
+						Email:<input type="text" name="email"/>
+						<br/>
+						<br/>
+						I agree to the terms and conditions  
+						<input type="checkbox" name="checkbox" />
+						<br/>
+						<br/>
+						<input type="submit" value="submit"/><param value="" ></param>
+
+						</form>
+		</div>
+		
+		<div class="content player">
+		
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="262" height="200"><param name="movie" value="http://cache.reverbnation.com/widgets/swf/40/pro_widget.swf?id=artist_465464&posted_by=&skin_id=PWAS1008&font_color=FF0000&auto_play=false&shuffle=true"></param><param name="allowscriptaccess" value="always"></param><param name="allowNetworking" value="all"></param><param name="allowfullscreen" value="true"></param><param name="wmode" value="Transparent"></param><param name="quality" value="best"></param><param name="flashvars" value="id=artist_465464&posted_by=&skin_id=PWAS1008&font_color=FF0000&auto_play=false&shuffle=true"></param><embed src="http://cache.reverbnation.com/widgets/swf/40/pro_widget.swf?id=artist_465464&posted_by=&skin_id=PWAS1008&font_color=FFFFFF&auto_play=false&shuffle=true" type="application/x-shockwave-flash" allowscriptaccess="always" allowNetworking="all" allowfullscreen="true" wmode="transparent" flashvars="id=artist_465464&posted_by=&skin_id=PWAS1008&font_color=FFFFFF&auto_play=false&shuffle=true" quality="best" width="262" height="200"></embed></object><br/>
+			<img style="visibility: visible;width:0px;height:0px;" border=0 width=0 height=0 src="Images/monopoly.jpg" /><img style="visibility:hidden;width:0px;height:0px;" border="0" width="0" height="0" src="http://ib.adnxs.com/seg?add=405194&t=2"/><img style="visibility:hidden;width:0px;height:0px;" border="0" width="0" height="0" src="http://ib.adnxs.com/seg?add=465568&t=2"/>
+			<a href="media_pop_up.html" onclick="return popitup('media_pop_up.html')" name="Hawka Hurricane"><p>Click here to launch a pop up player</p></a>
+		</div>
+
+	</div>
+
+	</div>
+	<script>
+	
+			function myFunction()
+			{
+			document.getElementById("Date").innerHTML;
+			}
+{
+var x;
+var d=new Date().getDay();
+switch (d)
+  {
+  case 0:
+    x="Today is Sunday";
+    break;
+  case 1:
+    x="Today is Monday";
+    break;
+  case 2:
+    x="Today is Tuesday";
+    break;
+  case 3:
+    x="Today is Wednesday";
+    break;
+  case 4:
+    x="Today is Thursday";
+    break;
+  case 5:
+    x="Today is Friday";
+    break;
+  case 6:
+    x="Today is Saturday";
+    break;
+  }
+document.getElementById("demo").innerHTML=x;
+}	
+	
+	</script>
+	
+</body>
+
+</html>

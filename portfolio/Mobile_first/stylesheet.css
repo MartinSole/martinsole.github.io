@@ -1,0 +1,231 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+}
+
+
+
+body{
+	background: linear-gradient(#000, #99ff33);
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:inherit;
+}
+
+h3{
+	color:#63bb47;
+	text-align: center;
+	padding:5px;
+}
+
+header{
+	padding:20px;
+	margin:0 auto;
+	}
+
+nav ul{
+	display: flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	flex-direction: row;
+	padding:10px 20px;
+
+
+}
+
+nav li{
+
+	background-color: #007f52;
+	border-radius: 30px;
+	width:100%;
+	text-align: center;
+	margin:10px auto;
+	
+
+}
+
+nav li a{
+	color:#fff;
+	font-size: 1.15em;
+	padding:10px;
+	display:block;
+}
+
+.container,
+header,
+footer{
+	background-color: #fff;
+}
+
+.title-image{
+	text-align: center;
+}
+
+svg {
+	display: block;
+	margin: 2em auto 0;
+	width: 100%;
+}
+
+.logo{
+	stroke: #007f52; 
+ 	stroke-width: 2;
+ 	stroke-dasharray: 800;
+ 	stroke-dashoffset: 800;
+  	animation: offset 30s linear forwards;
+}
+
+@keyframes offset {
+ 100% {
+   stroke-dashoffset: 0; 
+  }
+}
+
+.content{
+	padding:25px;
+
+}
+
+
+
+.primary,
+.secondary,
+.tertiary{
+	padding:15px;
+
+}
+
+.primary:hover,
+.secondary:hover,
+.tertiary:hover{
+
+	border-radius:5px;
+	box-shadow: 5px 5px 5px #888888;
+
+}
+
+.button{
+	margin:20px auto;
+	width:75%;
+	color:#fff;
+	background-color: #EC4646;
+	border-radius: 10px;
+	padding:10px;
+	text-align: center;
+	display:block;
+	font-size: 1.15em;
+}
+
+.button a:hover{
+	text-decoration: underline;
+
+}
+
+footer{
+	padding:50px;
+	text-align: center;
+}
+
+
+#overlay{
+	background:rgba(0,0,0,0.7);
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	display: :none;
+	text-align: center;
+}
+
+#overlay img{
+	margin-top:10%;
+}
+
+#overlay p{
+	color:white;
+	}
+
+/* Desktop */
+
+@media (min-width:700px) {
+
+	header{
+	z-index:30;
+	margin:0 auto;
+	width:100%;
+	position:fixed;
+	top:0;
+
+	}
+		nav li{
+		width:135px;
+	}
+	.container{
+	padding-top:195px;
+}
+
+
+.anchor{
+  display: block;
+  height: 195px; /*same height as header*/
+  margin-top: -195px; /*same height as header*/
+  visibility: hidden;
+}
+
+	.primary,
+	.secondary
+	{
+		width:50%;
+		margin:0 auto;
+		float:left;
+	}
+	.tertiary{
+		float:left;
+		width:100%;
+	}
+	.hawka,
+	.gimpoid {
+		float: left;
+		width:50%;
+	}
+
+}
+
+@media (min-width:980px) {
+	.container{
+		width:1200px;
+		margin:0 auto;
+	}
+
+	.about{
+		width:75%;
+		margin:0 auto;
+	}
+
+	.primary,
+	.secondary,
+	.tertiary{
+		width:33%;
+		margin:0 auto;
+		float:left;
+	}
+
+
+
+}
+
+
+
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
