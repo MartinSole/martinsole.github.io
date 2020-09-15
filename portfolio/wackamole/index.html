@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wack a mole</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+    <div class="container">
+        <section>
+            <h1>Wack a mole!</h1>
+            <div class="score">
+                <h2>Your score: <span id="score">0</span></h2>
+                <h2>Seconds left: <span id="timeLeft">60</span></h2>
+            </div>
+            <div id="difficultyContainer">
+
+                <div id="difficulty">
+                    <h4>Choose a difficulty, easy is selected by default</h4>
+                    <button id="easy">Easy</button>
+                    <button id="medium">Medium</button>
+                    <button id="hard">Hard</button>
+                </div>
+            </div>
+            <button id="start">Start</button>
+            <div class="gridContainer">
+                <div class="grid">
+                    <div class="square" id="1"></div>
+                    <div class="square" id="2"></div>
+                    <div class="square" id="3"></div>
+                    <div class="square" id="4"></div>
+                    <div class="square" id="5"></div>
+                    <div class="square" id="6"></div>
+                    <div class="square" id="7"></div>
+                    <div class="square" id="8"></div>
+                    <div class="square" id="9"></div>
+                </div>
+                <div class="overlay" id="overlay">
+
+                </div>
+            </div>
+        </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Created by following tutorial by Ania Kubrow</p>
+        </div>
+
+    </footer>
+    <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>

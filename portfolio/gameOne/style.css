@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: Calibri,Arial, Helvetica, sans-serif;
+}
+h1,
+h2,
+h3,
+h4{margin-bottom: 1rem;
+    margin-top:0;
+}
+
+h1,
+h2{
+    text-align: center;
+}
+
+p{
+    margin:0;
+}
+
+main{
+  background:#FAE39C;
+  min-height:90vh;
+}
+footer{
+    background:#666;
+    color:#fff;
+    min-height:10vh;
+    text-align:center;
+}
+
+button{
+    background:#2B8759;
+    border:none;
+    border-radius:.5rem;
+    color:#fff;
+    padding:.5rem 1.25rem;
+}
+
+#difficultyContainer{
+    min-height:67px;
+}
+
+.container{
+    max-width:1200px;
+    margin:0 auto;
+    padding:1.875rem 0;
+}
+.game{
+    margin:0 auto;
+    max-width:400px;
+}
+.grid{
+    align-content: flex-start;   
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    margin-bottom:3.75rem;
+    margin-top:1rem;
+    width: 400px;
+
+}
+
+.card{
+    background: linear-gradient(45deg,#279289, #A7C584 75%);
+    border-radius: .5rem;
+    color:transparent;
+    height:calc(100%/4);
+    width:calc(100%/4);
+}
+
+.selectedCard{
+    background:#4893C0;
+    color:#fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:24px;
+}
+
+.match{
+    background: transparent;
+    height:0;
+    width:0;
+}
+
+@media (max-width:450px){
+    .container{
+        max-width:350px;
+    }
+    .grid{
+        width:350px;
+        height:350px;
+    }
+
+    button{
+        padding:1rem 1.25rem;
+        width:100%;
+    }
+
+    #easy,
+    #medium{
+        margin-bottom:1rem;
+    }
+
+    #difficultyContainer{
+        min-height:31px;
+    }
+}
