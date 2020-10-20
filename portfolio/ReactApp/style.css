@@ -1,0 +1,16 @@
+body{
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+.beerImage {
+    max-height:200px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+@media(max-width:991px) {
+    .btn{min-width:50%;}
+}
+@media(max-width:767px){
+    .btn{min-width:75%;}
+}
