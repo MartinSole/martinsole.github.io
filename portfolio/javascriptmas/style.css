@@ -1,0 +1,36 @@
+header{
+    align-items: center;
+    background: url('images/DSC_1078.JPG') center center/cover no-repeat;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    height:100vh;
+}
+.overlay{
+    background: rgba(0,0,0,.25);
+    height:100%;
+    position:absolute;
+    width:100%;
+    z-index:5;
+}
+
+h1,
+h2{
+    position: relative;
+    text-align: center;
+    z-index:10;
+}
+
+section h2,
+section p {
+    margin-bottom:1.5rem;
+}
+
+li{
+    margin-bottom:.5rem;
+}
+
+ol,
+li:last-of-type{
+    margin-bottom:0;
+}
