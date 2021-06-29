@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    margin:0 auto;
+    max-width:1200px;
+}
+
+h2{
+    color: #fff;
+    margin-bottom:1rem;
+    text-align: center;
+}
+
+h1{
+    color:#fefe22;
+    text-align: center;
+    font-size: 3rem;
+    margin: .5rem
+}
+
+.grid{
+    align-items: baseline;
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    width:420px;
+    height:420px;
+    border:10px solid hotpink;
+    border-radius: .75rem;
+}
+
+.gridSquare{
+    background: #fff;
+    height:15px;
+    width:15px;
+}
+
+.pacDot{
+    background:#0f0;
+    border:5px solid #fff;
+    box-sizing: border-box;
+}
+
+.wall{
+    background:#333;
+}
+
+.powerPellet {
+    background:orangered;
+    border-radius:7.5px;
+}
+
+.pacman{
+    background:#fefe22;
+    border-radius:7.5px;
+    border:none;
+}
+
+.blinky{
+    background: red;
+    border: none;
+}
+
+.pinky{
+    background: pink;
+    border:none;
+}
+
+.inky{
+    background: blue;
+    border:none;
+}
+
+.clyde{
+    background: orange;
+    border:none;
+}
+
+.scaredGhost {
+    background: aquamarine;
+    border:none;
+}
