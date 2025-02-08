@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the Text component 1`] = `
+<div>
+  <footer
+    class="logoContainer"
+  >
+    <img
+      alt="Funraising regulator"
+      src="src/images/logos/Fundraising Regulator.svg"
+    />
+    <img
+      alt="Visa"
+      src="src/images/logos/Visa.svg"
+    />
+    <img
+      alt="Mastercard"
+      src="src/images/logos/Mastercard.svg"
+    />
+    <img
+      alt="Apple pay"
+      src="src/images/logos/Apple Pay.svg"
+    />
+    <img
+      alt="Google Pay"
+      src="src/images/logos/Google Pay.svg"
+    />
+    <img
+      alt="Paypal"
+      src="src/images/logos/Paypal.svg"
+    />
+  </footer>
+</div>
+`;

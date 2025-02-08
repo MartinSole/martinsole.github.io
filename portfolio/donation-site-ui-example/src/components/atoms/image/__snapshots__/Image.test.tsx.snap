@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the Image component 1`] = `
+<div>
+  <img
+    alt="grey square"
+    src="https://placehold.co/600x400"
+  />
+</div>
+`;

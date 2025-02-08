@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the RadioButton component 1`] = `
+<div>
+  <input
+    id="cost"
+    name="cost"
+    type="radio"
+    value="£5"
+  />
+  <label
+    class="buttonBase"
+    for="cost"
+  >
+    £5
+  </label>
+</div>
+`;

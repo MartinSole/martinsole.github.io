@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the DonationAmounts component 1`] = `
+<div>
+  <fieldset
+    class="gridContainer gridGap"
+  >
+    <legend
+      class="srOnly"
+    >
+      Choose a donation type
+    </legend>
+    <input
+      checked=""
+      id="donation-type-0"
+      name="donation-type"
+      type="radio"
+      value="weekly"
+    />
+    <label
+      class="buttonBase"
+      for="donation-type-0"
+    >
+      weekly
+    </label>
+    <input
+      id="donation-type-1"
+      name="donation-type"
+      type="radio"
+      value="monthly"
+    />
+    <label
+      class="buttonBase"
+      for="donation-type-1"
+    >
+      monthly
+    </label>
+    <input
+      id="donation-type-2"
+      name="donation-type"
+      type="radio"
+      value="yearly"
+    />
+    <label
+      class="buttonBase"
+      for="donation-type-2"
+    >
+      yearly
+    </label>
+  </fieldset>
+</div>
+`;
